@@ -40,20 +40,7 @@ public class DBSchemaCreator {
     public static final String[] objects = new String[]{
         'Account',
         'Contact',
-        'User',
-        'mtls__Address__c',
-        'mtls__Pickup_Address__c',
-        'mtls__Delivery_Option__c',
-        'mtls__Delivery_Option_Data__c',
-        'mtls__Quote__c',
-        'mtls__Quote_Item__c',
-        'mtls__Offline_Price_Request__c',
-        'mtls__Quote_Approval_Request__c',
-        'mtls__Part__c',
-        'mtls__Part_Item__c',
-        'mtls__Order__c',
-        'mtls__Order_Item__c',
-        'mtls__Payment_Transaction__c'
+        'User'
     };
 
     @AuraEnabled
